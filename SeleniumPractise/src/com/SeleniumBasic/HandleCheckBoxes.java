@@ -14,8 +14,6 @@ public class HandleCheckBoxes {
 	@Test
 	public void checkBoxHandle() throws Exception {
 
-		/*System.setProperty("webdriver.chrome.driver", "F:\\Selenium Latest\\DriverClass\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();*/
 		
 		System.setProperty("webdriver.gecko.driver", "F:\\Selenium Latest\\DriverClass\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
