@@ -27,6 +27,7 @@ public class verifyPageTitle {
 		String pageSource = driver.getPageSource();
 		Assert.assertTrue(pageSource.contains("Stack Overflow - Where Developers Learn,"));
 
+       // Close the browser
 		driver.close();
 
 	}
