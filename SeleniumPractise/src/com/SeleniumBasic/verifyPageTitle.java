@@ -10,6 +10,7 @@ public class verifyPageTitle {
 	@Test
 	public void VerifyPageTitle() {
 
+		//Launch Firefox & navigate to Application
 		System.setProperty("webdriver.gecko.driver", "F:\\Selenium Latest\\DriverClass\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
